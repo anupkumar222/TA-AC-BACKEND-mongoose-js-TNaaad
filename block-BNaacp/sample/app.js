@@ -1,12 +1,12 @@
 //require
 var express = require('express');
 var mongoose = require('mongoose');
-var user = require('./models/user')
+var User = require('./models/user')
 
 //db connection
 mongoose.connect(
-    "mongodb://localhost/sample",
-    { useNewUrlParser: true, useUnifiedTopology: true, strictQuery: false },
+    'mongodb://localhost/sample',
+    { useNewUrlParser: true, useUnifiedTopology: true, },
     (err) => {
         console.log(err ? err : "connected true");
     }
