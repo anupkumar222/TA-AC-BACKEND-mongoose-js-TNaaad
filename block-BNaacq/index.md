@@ -17,7 +17,7 @@ Each article can have fields :-
 - timestamps()
 
 Each comment can have fields:-
-//xcz
+
 - content
 - author -> ID of user
 - article ->
